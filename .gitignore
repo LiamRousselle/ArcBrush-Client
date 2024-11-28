@@ -9,3 +9,18 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+build/
+
+# Ignore other generated files
+*.ninja
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.log
+
+# Ignore backup files
+*.bak
+*.tmp
